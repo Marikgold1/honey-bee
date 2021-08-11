@@ -5,4 +5,14 @@ h1, h2, h3, h4, h5, h6 {
 header {
     background-image: url(//res2.weblium.site/res/60a4daed05e9ab0021e47c55/60a615af80a13d0021b9c767_optimized_1920);
     background-position: 100%;
+    padding: 50px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    display: flex;
+    justify-self: flex-end;
 }
