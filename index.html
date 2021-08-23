@@ -6,223 +6,251 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Honey Production Website</title>
     <link rel="icon" href="img/small-bee.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <img src="img/honeybee.svg" width="200" alt="HONEYBEE">
-        </nav>
-        <div class="menu">
-                <a href="#about">About Us</a>
-                <a href="#honey-types">Types oh Honey</a>
-                <a href="#store">Store</a>
-                <a href="#testimonials">Testinonials</a>
-                <a href="#contacts">Contact Us</a>
-        </div>        
-        <div class="buttom">
-                <a href="#store">Buy Honey</a>
-        </div>
-        <div class="banner">
-            <p>100% ORGANIC HONEY</p>
-            <h1>HONEYBEE</h1>
-            <p>We offer a great assortment of pure raw honey from our swaths in California. Order honey from our honeycombs!</p>
-            <div class="buttom">
-                <a href="#store">Buy Now</a>
+
+    <div class="main">
+        <header>
+            <div class="header__logo">
+                <img src="img/honeybee.svg" width="200" alt="HONEYBEE">
             </div>
-        </div>
-    </header>
-    <main>
-        <section>
-            <p>SERVICES</p>
-            <h2>WHAT WE DO</h2>
-            <p>Our family-owned company is engaged with everything related to honey and its production. Learn more below about our services.</p>
-            <div class="carousel-service">
-                <div class="slide">
-                    <img src="img/honey.svg" width="100" alt="honey">
-                    <h3>Honey Shop</h3>
-                    <p>We produce, bottle, and sell honey harvested by our beekeepers.</p>
-                    <a href="#store">Learn more</a>
+            <div class="header__btn">
+                <a class="buttons btns" href="#about">About Us</a>
+                <a class="buttons btns" href="#honey-types">Types oh Honey</a>
+                <a class="buttons btns" href="#store">Store</a>
+                <a class="buttons btns" href="#testimonials">Testinonials</a>
+                <a class="buttons btns" href="#contacts">Contact Us</a>
+                <a class="buttons buy-btn" href="#store">Buy Honey</a>
+            </div> 
+        </header>
+        
+        <main>
+            <div class="banner">
+                <p class="banner__text">100% ORGANIC HONEY</p>
+                <p class="banner__title">HONEYBEE</p>
+                <div class="line"></div>
+                <p class="banner__desc">We offer a great assortment of pure raw honey from our swaths in California. Order honey from our
+                    honeycombs!</p>
+                <p class="banner__link">
+                    <a href="#store" class="banner__button">Buy Now</a>
+                </p>
+                
+            </div>
+
+            <section class="services">
+                <div class="services__desc">
+                    <p class="desc__title">SERVICES</p>
+                    <p class="desc__quest">WHAT WE DO</p>
+                    <p class="desc__desc">Our family-owned company is engaged with everything related to honey and its production. Learn more
+                        below about our services.</p>
                 </div>
-                <div class="slide">
-                    <img src="img/cup.svg" width="100" alt="Cup">
-                    <h3>Honey Production</h3>
-                    <p>We offer over 10 types of organic raw honey in our online store.</p>
-                    <a href="#store">Learn more</a>
+                
+                <div class="services__item">
+                    <div class="slide">
+                        <img src="img/honey.svg" width="100" alt="honey">
+                        <h3>Honey Shop</h3>
+                        <p>We produce, bottle, and sell honey harvested by our beekeepers.</p>
+                        <a href="#store">Learn more</a>
+                    </div>
+                    <div class="slide">
+                        <img src="img/cup.svg" width="100" alt="Cup">
+                        <h3>Honey Production</h3>
+                        <p>We offer over 10 types of organic raw honey in our online store.</p>
+                        <a href="#store">Learn more</a>
+                    </div>
+                    <div class="slide">
+                        <img src="img/hive.svg" width="100" alt="hive">
+                        <h3>Supplements</h3>
+                        <p>You can buy bee pollen, propolis, and hive mixtures.</p>
+                        <a href="#store">Learn more</a>
+                    </div>
+                    <div class="slide">
+                        <img src="img/beekeeper.svg" width="100" alt="beekeeper">
+                        <h3>Beekeeping Classes</h3>
+                        <p>Feel free to book excursions and workshops at our swaths.</p>
+                        <a href="#store">Learn more</a>
+                    </div>
                 </div>
-                <div class="slide">
+            </section>
+            <section>
+                <img src="img/picture-one.png" width="600" alt="picture-one">
+                <p>WHY CHOOSE US</p>
+                <h2>ABOUT BEEHONEY</h2>
+                <p>We are a family-owned business managing 5+ swaths in California. We bottle our honey with love and
+                    care.</p>
+                <div>
+                    <img src="img/bee-two.svg" width="100" alt="bee-two">
+                    <h3>Natural Environment</h3>
+                    <p>Our swaths are located in ecologically clean areas in California. The bees feel really happy
+                        there!</p>
+                </div>
+                <div>
+                    <img src="img/medal.svg" width="100" alt="medal">
+                    <h3>Certified Honey Production</h3>
+                    <p>We produce 100% organic raw honey without pasteurization or filtration processes.</p>
+                </div>
+                <div>
+                    <img src="img/scuter.svg" width="100" alt="scuter">
+                    <h3>Fast Shipping</h3>
+                    <p>We are really fast at shipping, so you can enjoy our honey in a couple of days after your order!
+                    </p>
+                </div>
+            </section>
+            <div>
+                <h5>HOW HONEY IS MADE</h5>
+            </div>
+            <section>
+                <p>TYPES OF HONEY</p>
+                <h2>TOP HONEY FLAVORS FROM OUR SWATHS</h2>
+                <p>Honey is a versatile source of vitamins and useful materials for your health:</p>
+                <div>
+                    <img src="img/galochka.svg" width="20" alt="galochka">
+                    <p>It is good for your digestive system.</p>
+                </div>
+                <div>
+                    <img src="img/galochka.svg" width="20" alt="galochka">
+                    <p>Raw honey is rich in antioxidants.</p>
+                </div>
+                <div>
+                    <img src="img/galochka.svg" width="20" alt="galochka">
+                    <p>Honey has beneficial effects on heart health.</p>
+                </div>
+                <div>
+                    <img src="img/galochka.svg" width="20" alt="galochka">
+                    <p>It improves the cholesterol rate.</p>
+                </div>
+            </section>
+            <section>
+                <div>
                     <img src="img/hive.svg" width="100" alt="hive">
-                    <h3>Supplements</h3>
-                    <p>You can buy bee pollen, propolis, and hive mixtures.</p>
-                    <a href="#store">Learn more</a>
+                    <h3>Clover Honey</h3>
+                    <p>Thick honey is produced by honeybees that collect the nectar of clover plants. Mild in taste and
+                        light in color.</p>
+                    <a href="#store">Shop Now</a>
                 </div>
-                <div class="slide">
-                    <img src="img/beekeeper.svg" width="100" alt="beekeeper">
-                    <h3>Beekeeping Classes</h3>
-                    <p>Feel free to book excursions and workshops at our swaths.</p>
-                    <a href="#store">Learn more</a>
+                <div>
+                    <img src="img/couple.svg" width="100" alt="couple">
+                    <h3>Buckwheat Honey</h3>
+                    <p>It is highly nutritious amber-colored honey with a slight reddish tint. It has a has a pleasant
+                        sweet taste.</p>
+                    <a name="#store">Shop Now</a>
                 </div>
-            </div>
-        </section>
-        <section>
-            <img src="img/picture-one.png" width="600" alt="picture-one">
-            <p>WHY CHOOSE US</p>
-            <h2>ABOUT BEEHONEY</h2>
-            <p>We are a family-owned business managing 5+ swaths in California. We bottle our honey with love and care.</p>
-            <div>
-                <img src="img/bee-two.svg" width="100" alt="bee-two">
-                <h3>Natural Environment</h3>
-                <p>Our swaths are located in ecologically clean areas in California. The bees feel really happy there!</p>
-            </div>
-            <div>
-                <img src="img/medal.svg" width="100" alt="medal">
-                <h3>Certified Honey Production</h3>
-                <p>We produce 100% organic raw honey without pasteurization or filtration processes.</p>
-            </div>
-            <div>
-                <img src="img/scuter.svg" width="100" alt="scuter">
-                <h3>Fast Shipping</h3>
-                <p>We are really fast at shipping, so you can enjoy our honey in a couple of days after your order!</p>
-            </div>
-        </section>
-        <div>
-            <h5>HOW HONEY IS MADE</h5>
-        </div>
-        <section>
-            <p>TYPES OF HONEY</p>
-            <h2>TOP HONEY FLAVORS FROM OUR SWATHS</h2>
-            <p>Honey is a versatile source of vitamins and useful materials for your health:</p>
-            <div>
-                <img src="img/galochka.svg" width="20" alt="galochka">
-                <p>It is good for your digestive system.</p>
-            </div>
-            <div>
-                <img src="img/galochka.svg" width="20" alt="galochka">
-                <p>Raw honey is rich in antioxidants.</p>
-            </div>
-            <div>
-                <img src="img/galochka.svg" width="20" alt="galochka">
-                <p>Honey has beneficial effects on heart health.</p>
-            </div>
-            <div>
-                <img src="img/galochka.svg" width="20" alt="galochka">
-                <p>It improves the cholesterol rate.</p>
-            </div>
-        </section>
-        <section>
-            <div>
-                <img src="img/hive.svg" width="100" alt="hive">
-                <h3>Clover Honey</h3>
-                <p>Thick honey is produced by honeybees that collect the nectar of clover plants. Mild in taste and light in color.</p>
-                <a href="#store">Shop Now</a>
-            </div>
-            <div>
-                <img src="img/couple.svg" width="100" alt="couple">
-                <h3>Buckwheat Honey</h3>
-                <p>It is highly nutritious amber-colored honey with a slight reddish tint. It has a has a pleasant sweet taste.</p>
-                <a href="#store">Shop Now</a>
-            </div>
-            <div>
-                <img src="img/bee-garden.svg" width="100" alt="bee-garden">
-                <h3>Wildflower Honey</h3>
-                <p>It is also known as polyfloral honey. It is made from the nectar of different species of flowers or blossoms.</p>
-                <a href="#store">Shop Now</a>
-            </div>
-            <div>
-                <img src="img/bee-juice.svg" width="100" alt="bee-juice">
-                <h3>Citrus Blossom Honey</h3>
-                <p>This honey is sweet and relatively thick, a perfect match for your tea or toast. It is the best association with California!</p>
-                <a href="#store">Shop Now</a>
-            </div>
-        </section>
-        <section>
-            <div>
-               <p>STORE</p>
-               <h2>OUR HONEY</h2>
-               <p>Shop our best honey bottled this season. We produce only natural, raw, and sweet honey without any impurities or additives. If you want to buy honey, hurry up!</p>
-            </div>  
-            <div class="products">
-               
-            </div>
-        </section>
-        <section>
-            <div>
-                <p>BLOG</p>
-                <h2>LEARN MORE ABOUT HONEYBEE</h2>
-                <p>Think that honey production is boring? Not at all! Read our blog and the latest news from our swaths to learn more!</p>
-            </div>
-            <div>
-                <img src="img/picture-q.webp" width="300" alt="picture-q">
-                <p>FEBRUARY 7, 2021</p>
-                <h3>What is Natural Honey?</h3>
-                <p>Let's see how to distinguish natural honey from artificial honey.</p>
-            </div>
-            <div>
-                <img src="img/picture-w.webp" width="300" alt="picture-w">
-                <p>MARCH 10, 2021</p>
-                <h3>New Season is Here!</h3>
-                <p>After winter, work in our Californian swaths is in full swing again.</p>
-            </div>
-            <div>
-                <img src="img/picture-e.webp" width="300" alt="picture-e">
-                <p>MARCH 17, 2021</p>
-                <h3>Honey in Jars</h3>
-                <p>Why is honey usually sold in glass jars? Our expert explains.</p>
-            </div>
-            <div>
-                <img src="img/picture-r.webp" width="300" alt="picture-r">
-                <p>APRIL 12, 2021</p>
-                <h3>How is Honey Harvested?</h3>
-                <p>Learn about how our beekeepers harvest honey from honeycomb frames.</p>
-            </div>
-        </section>
-        <section>
-            <div>
-                <p>FAQ</p>
-                <h2>HONEY QUESTIONS</h2>
-                <p>Below are the most popular questions from our clients.</p>
-            </div>
-            <div>
-                <details>
-                    <summary>What is raw honey?</summary>
-                    Raw honey is  honey as it is in the beehive. Raw honey is made by extracting honey from the honeycombs and separating it from impurities. It doesn't contain any hidden sugars and is not pasteurized or processed. 
-                </details>
-                <details>
-                    <summary>Can your honey cause allergies?</summary>
-                    We sell pure organic honey but it can cause allergies, indeed. Typical symptoms are the same as common pollen allergy symptoms: runny nose, sneezing, and swelling.
-                </details>
-                <details>
-                    <summary>What payment options do you provide?</summary>
-                    We accept Visa and MasterCard cards issued by any American bank. You can also use PayPal.
-                </details>
-                <details>
-                    <summary>Why does the assortment change sometimes?</summary>
-                    We bottle honey 3-4 times per year, according to the harvest seasons. Our capabilities are limited to around 3000 jars a year. Therefore, depending on the season, there may be different honey in our assortment, and some products may be temporarily unavailable.
-                </details>
-            </div>
-        </section>
-        <section>
-            <div>
-              <p>CONTACTS</p>
-              <h2>CONTACT US ANYTIME</h2>
-              <p>Feel free to contact us for any inquiries or commercial offers:</p>
-            </div>
-            <div>
-              <h3>Address</h3>
-              <p>44670 Mattole Rd, Honeydew, CA 95545</p>
-            </div>
-            <div>
-              <h3>Hours</h3>
-              <p>Monday - Saturday: 11 AM - 9 PM Sunday: 11 AM - 7 PM</p>
-            </div>
-            <div>
-                <h3>Contacts</h3>
-                <a href="mailto:honeybee@email.com">+1 (234) 567 89 00</a>
-                <a href="honeybee@email.com">honeybee@email.com</a>
-            </div>
-        </section>
-        <form action="URL">
+                <div>
+                    <img src="img/bee-garden.svg" width="100" alt="bee-garden">
+                    <h3>Wildflower Honey</h3>
+                    <p>It is also known as polyfloral honey. It is made from the nectar of different species of flowers
+                        or blossoms.</p>
+                    <a href="#store">Shop Now</a>
+                </div>
+                <div>
+                    <img src="img/bee-juice.svg" width="100" alt="bee-juice">
+                    <h3>Citrus Blossom Honey</h3>
+                    <p>This honey is sweet and relatively thick, a perfect match for your tea or toast. It is the best
+                        association with California!</p>
+                    <a href="#store">Shop Now</a>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <p>STORE</p>
+                    <h2>OUR HONEY</h2>
+                    <p>Shop our best honey bottled this season. We produce only natural, raw, and sweet honey without
+                        any impurities or additives. If you want to buy honey, hurry up!</p>
+                </div>
+                <div class="products">
+
+                </div>
+            </section>
+            <section>
+                <div>
+                    <p>BLOG</p>
+                    <h2>LEARN MORE ABOUT HONEYBEE</h2>
+                    <p>Think that honey production is boring? Not at all! Read our blog and the latest news from our
+                        swaths to learn more!</p>
+                </div>
+                <div>
+                    <img src="img/picture-q.webp" width="300" alt="picture-q">
+                    <p>FEBRUARY 7, 2021</p>
+                    <h3>What is Natural Honey?</h3>
+                    <p>Let's see how to distinguish natural honey from artificial honey.</p>
+                </div>
+                <div>
+                    <img src="img/picture-w.webp" width="300" alt="picture-w">
+                    <p>MARCH 10, 2021</p>
+                    <h3>New Season is Here!</h3>
+                    <p>After winter, work in our Californian swaths is in full swing again.</p>
+                </div>
+                <div>
+                    <img src="img/picture-e.webp" width="300" alt="picture-e">
+                    <p>MARCH 17, 2021</p>
+                    <h3>Honey in Jars</h3>
+                    <p>Why is honey usually sold in glass jars? Our expert explains.</p>
+                </div>
+                <div>
+                    
+                    <img src="img/picture-r.webp" width="300" alt="picture-r">
+                    <p>APRIL 12, 2021</p>
+                    <h3>How is Honey Harvested?</h3>
+                    <p>Learn about how our beekeepers harvest honey from honeycomb frames.</p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <p>FAQ</p>
+                    <h2>HONEY QUESTIONS</h2>
+                    <p>Below are the most popular questions from our clients.</p>
+                </div>
+                <div>
+                    <details>
+                        <summary>What is raw honey?</summary>
+                        Raw honey is honey as it is in the beehive. Raw honey is made by extracting honey from the
+                        honeycombs and separating it from impurities. It doesn't contain any hidden sugars and is not
+                        pasteurized or processed.
+                    </details>
+                    <details>
+                        <summary>Can your honey cause allergies?</summary>
+                        We sell pure organic honey but it can cause allergies, indeed. Typical symptoms are the same as
+                        common pollen allergy symptoms: runny nose, sneezing, and swelling.
+                    </details>
+                    <details>
+                        <summary>What payment options do you provide?</summary>
+                        We accept Visa and MasterCard cards issued by any American bank. You can also use PayPal.
+                    </details>
+                    <details>
+                        <summary>Why does the assortment change sometimes?</summary>
+                        We bottle honey 3-4 times per year, according to the harvest seasons. Our capabilities are
+                        limited to around 3000 jars a year. Therefore, depending on the season, there may be different
+                        honey in our assortment, and some products may be temporarily unavailable.
+                    </details>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <p>CONTACTS</p>
+                    <h2>CONTACT US ANYTIME</h2>
+                    <p>Feel free to contact us for any inquiries or commercial offers:</p>
+                </div>
+                <div>
+                    <h3>Address</h3>
+                    <p>44670 Mattole Rd, Honeydew, CA 95545</p>
+                </div>
+                <div>
+                    <h3>Hours</h3>
+                    <p>Monday - Saturday: 11 AM - 9 PM Sunday: 11 AM - 7 PM</p>
+                </div>
+                <div>
+                    <h3>Contacts</h3>
+                    <a href="mailto:honeybee@email.com">+1 (234) 567 89 00</a>
+                    <a href="honeybee@email.com">honeybee@email.com</a>
+                </div>
+            </section>
+            <form action="URL">
                 <div>
                     <input type="text" id="Contact" placeholder="Enter your full name*">
                 </div>
@@ -238,52 +266,55 @@
                 <div>
                     <button type="submit">Request a Quote</button>
                 </div>
-        </form>
-        <div class="info-honey">
+            </form>
+            <div class="info-honey">
+                <div>
+                    <img src="img/photo-a.webp" width="270" alt="photo-a">
+                </div>
+                <div>
+                    <img src="img/photo-s.webp" width="270" alt="photo-s">
+                </div>
+                <div>
+                    <img src="img/photo-d.webp" width="270" alt="photo-d">
+                </div>
+                <div>
+                    <img src="img/photo-f.webp" width="270" alt="photo-f">
+                </div>
+                <div>
+                    <img src="img/photo-g.webp" width="270" alt="photo-g">
+                </div>
+            </div>
+        </main>
+        <footer>
             <div>
-                <img src="img/photo-a.webp" width="270" alt="photo-a">
+                <div class="block-down">
+                    <img src="img/bee-down.svg" width="70" alt="bee-down">
+                    <p>Honey Production Company</p>
+                </div>
+                <div>
+                    <a href="#about">About Us</a>
+                    <a href="#honey-types">Types oh Honey</a>
+                    <a href="#store">Store</a>
+                    <a href="#testimonials">Testinonials</a>
+                    <a href="#contacts">Contact Us</a>
+                </div>
+                <div>
+                    <a href="https://uk-ua.facebook.com/"><img src="img/fb-icon.svg" width="40" alt="fb-icon"></a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/"><img src="img/inst-icon.svg" width="40" alt="inst-icon"></a>
+                </div>
+                <div>
+                    <a href="hhttps://www.youtube.com/"><img src="img/youtube-icon.svg" width="40"
+                            alt="youtube-icon"></a>
+                </div>
+                <div>
+                    <p>© Created by</p>
+                    <p>All rights Reserved</p>
+                </div>
             </div>
-            <div>
-                <img src="img/photo-s.webp" width="270" alt="photo-s">
-            </div>
-            <div>
-                <img src="img/photo-d.webp" width="270" alt="photo-d">
-            </div>
-            <div>
-                <img src="img/photo-f.webp" width="270" alt="photo-f">
-            </div>
-            <div>
-                <img src="img/photo-g.webp" width="270" alt="photo-g">
-            </div>
-        </div>
-    </main>
-    <footer>
-        <div>
-            <div class="block-down">
-                <img src="img/bee-down.svg" width="70" alt="bee-down">
-                <p>Honey Production Company</p>
-            </div>
-            <div>
-                <a href="#about">About Us</a>
-                <a href="#honey-types">Types oh Honey</a>
-                <a href="#store">Store</a>
-                <a href="#testimonials">Testinonials</a>
-                <a href="#contacts">Contact Us</a>
-            </div>
-            <div>
-                <a href="https://uk-ua.facebook.com/"><img src="img/fb-icon.svg" width="40" alt="fb-icon"></a>            
-            </div>
-            <div>
-                <a href="https://www.instagram.com/"><img src="img/inst-icon.svg" width="40" alt="inst-icon"></a>            
-            </div>
-            <div>
-                <a href="hhttps://www.youtube.com/"><img src="img/youtube-icon.svg" width="40" alt="youtube-icon"></a>            
-            </div>
-            <div>
-                <p>© Created by</p>
-                <p>All rights Reserved</p>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
+
 </html>
