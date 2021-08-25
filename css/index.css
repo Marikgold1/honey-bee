@@ -125,4 +125,32 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 200px;
+}
+
+.desc__title {
+    color: rgb(247, 120, 1);
+    font-weight: bold;
+}
+.desc__quest {
+    font-size: 50px;
+    font-weight: 700;
+    color: #5a3733;
+    line-height: 100px;
+}
+
+.line-up {
+    width: 80px;
+    height: 4px;
+    background-color: rgb(247, 120, 1);
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.desc__desc {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 12px;
+    width: 620px;
+    font-size: 20px;
 }
